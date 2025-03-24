@@ -1,6 +1,19 @@
-# MetaID Create Buzz
+# @feiyangl1020/metaid-create-buzz 🐝
 
-A TypeScript library for creating and managing Buzz content on the MetaID protocol.
+[![npm version](https://img.shields.io/npm/v/@feiyangl1020/metaid-create-buzz)](https://www.npmjs.com/package/@feiyangl1020/metaid-create-buzz)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
+A TypeScript library for creating and managing Buzz content on the MetaID protocol. Buzz is a decentralized social media post format that supports both public and pay-to-view content with media attachments.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)  
+- [Usage](#usage)
+- [API Reference](#api-reference)
+- [Development](#development)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -14,11 +27,11 @@ A TypeScript library for creating and managing Buzz content on the MetaID protoc
 ## Installation
 
 ```bash
-npm install metaid-create-buzz
+npm install @feiyangl1020/metaid-create-buzz
 # or
-yarn add metaid-create-buzz
+yarn add @feiyangl1020/metaid-create-buzz
 # or
-pnpm add metaid-create-buzz
+pnpm add @feiyangl1020/metaid-create-buzz
 ```
 
 ## Usage
@@ -26,7 +39,7 @@ pnpm add metaid-create-buzz
 ### Basic Setup
 
 ```typescript
-import { createBuzz, createNormalBuzz } from 'metaid-create-buzz';
+import { createBuzz, createNormalBuzz } from '@feiyangl1020/metaid-create-buzz';
 
 // Initialize with your connector and network settings
 const params = {
@@ -92,7 +105,17 @@ Creates a normal public Buzz post.
 - crypto-js
 - uuid
 
-## Building
+## Development
+
+To set up the development environment:
+
+```bash
+git clone https://github.com/your-repo/metaid-create-buzz.git
+cd metaid-create-buzz
+pnpm install
+```
+
+### Building
 
 ```bash
 npm run build
@@ -100,6 +123,24 @@ npm run build
 
 Builds the project to the `dist` folder using TypeScript.
 
+### Testing
+
+Run unit tests with Jest:
+
+```bash
+npm test
+```
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
 ## License
 
-ISC
+ISC © [Your Name]

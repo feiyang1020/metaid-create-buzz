@@ -11,10 +11,10 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src/**/*",
-    "src/test-app/**/*"
+    "src/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "src/test-app/**/*"
   ]
 }

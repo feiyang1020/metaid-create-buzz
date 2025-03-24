@@ -36,8 +36,8 @@ export type BuzzContent = {
     publicImages: {
         file: File;
     }[];
-    nfts: NFT[];
-    video: {
+    nfts?: NFT[];
+    video?: {
         file: File;
     };
     quotePin?: {
