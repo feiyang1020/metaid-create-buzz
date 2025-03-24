@@ -52,8 +52,8 @@ export type BuzzContent = {
   encryptContent: string;
   encryptImages: { file: File }[];
   publicImages: { file: File }[];
-  nfts: NFT[];
-  video: { file: File };
+  nfts?: NFT[];
+  video?: { file: File };
   quotePin?: { id: string };
 };
 
