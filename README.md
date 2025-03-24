@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@feiyangl1020/metaid-create-buzz)](https://www.npmjs.com/package/@feiyangl1020/metaid-create-buzz)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/feiyang1020/metaid-create-buzz)
 
 A TypeScript library for creating and managing Buzz content on the MetaID protocol. Buzz is a decentralized social media post format that supports both public and pay-to-view content with media attachments.
 
@@ -110,7 +111,7 @@ Creates a normal public Buzz post.
 To set up the development environment:
 
 ```bash
-git clone https://github.com/your-repo/metaid-create-buzz.git
+git clone https://github.com/feiyang1020/metaid-create-buzz.git
 cd metaid-create-buzz
 pnpm install
 ```
@@ -143,4 +144,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-ISC © [Your Name]
+ISC © [feiyang1020](https://github.com/feiyang1020)
