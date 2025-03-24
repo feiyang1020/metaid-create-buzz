@@ -1,0 +1,30 @@
+{
+  "name": "@feiyangl1020/metaid-create-buzz",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc --skipLibCheck --noEmitOnError false",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "package"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.13.11",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@feiyangl1020/metaid": "^0.0.3",
+    "browser-image-compression": "^2.0.2",
+    "compressorjs": "^1.2.1",
+    "crypto-js": "^4.2.0",
+    "uuid": "^11.1.0"
+  }
+}
